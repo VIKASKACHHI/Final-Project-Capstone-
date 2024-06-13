@@ -5,6 +5,9 @@ Web Programming with Python and JavaScript
 Introduction
 This web application is a news article subscription platform powered by Django. Readers can search for articles or browse the latest articles in the article plaza. Editors can upload articles in HTML format and set a paywall for any article. Readers can donate to become subscribers and access the full article sections.
 
+Distinctiveness and Complexity
+This project satisfies the distinctiveness and complexity requirements by offering a unique platform for article subscription and management. It includes features for searching, browsing, and managing articles, as well as handling user subscriptions and payments.
+
 Project Structure
 Main Page
 On the main page, users can search for text within articles by entering keywords in the search box and clicking the "Search" button. Users can also click the "Article Plaza" button to browse randomly selected articles without logging in.
@@ -41,7 +44,7 @@ Setup
 shell
 Copy this code in command prompt
 
-git clone https://github.com/ESWZY/cs50web-final-project.git
+git clone url
 cd cs50web-final-project
 pip install -r requirements.txt
 After installing dependencies, run the server with:
@@ -86,6 +89,7 @@ views.py: Handles the logic for rendering pages and processing user requests.
 urls.py: Maps URLs to their corresponding views.
 Running the Application
 To run the application:
+
 
 Clone the repository.
 Install the required packages.
