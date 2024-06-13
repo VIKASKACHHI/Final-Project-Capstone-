@@ -44,7 +44,7 @@ Setup
 shell
 Copy this code in command prompt
 
-git clone url
+git clone (https://github.com/VIKASKACHHI/Final-Project-Capstone-.git)
 cd cs50web-final-project
 pip install -r requirements.txt
 After installing dependencies, run the server with:
